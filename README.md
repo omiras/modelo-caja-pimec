@@ -14,7 +14,32 @@ Estos ejercicios potencian el concepto clave del [modelo de caja, o box model](h
 </head>
 ```
 
+## Ejercicio 0
+
+Para este primer ejercicio, simplemente edita el archivo **0-modelo-caja.css** para que los elementos div tengan el mismo aspecto que el de la imagen de referencia.
+
+Edita únicamente las partes del CSS donde se indique en el archivo.
+
+En este ejercicio solo tendrás que modificar los valores de las propiedades margin y padding. No será necesario añadir ni eliminar propiedades del CSS, ni realizar ningún cambio en el archivo HTML.
+
+![imagen](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/block-and-inline/01-margin-and-padding-1/desired-outcome.png)
+
+### Autoevaluación
+
+Utiliza esta sección para comprobar tu trabajo. En estos ejercicios, el objetivo no es conseguir una precisión del **100 % al píxel**, sino utilizar las herramientas que has aprendido para obtener un resultado lo más parecido posible al diseño de referencia.
+
+* **Div One** y **Div Three** tienen **32 px** de espacio entre el texto y el borde.
+* **Div One** tiene **12 px** de separación con respecto a cualquier otro elemento de la página.
+* Hay un espacio de **48 px** entre **Div Two** y **Div Three**.
+* **Div Three** está alineado a la derecha.
+* La alineación de **Div Three** se consigue utilizando **`margin`** (y **no** `float`, `flexbox` u otras técnicas similares).
+
+
+## Ejercicios 1 y 2
+
 4. Sigue este [vídeo](https://oscarm.tinytake.com/msc/ODcyNDQ3Nl8yMjEyMzQ3OQ) para ver el diseño esperado y algunos comentarios
+
+
 
 ## Colores CSS
 
