@@ -46,8 +46,6 @@ Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 2. Pon un fondo verde y un título blanco, en mayúsculas, con sombra negra.
 3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. 
 4. Centra la introducción y las dos citas con borde azul discontinuo con `margin: 20px auto`.
-5. Las cuatro citas con borde marrón o naranja quedan alineadas a la izquierda, con `margin: 20px 0`. 
-6. Reproduce los tres estilos de cita: borde marrón con esquinas izquierdas redondeadas, borde naranja con esquinas derechas redondeadas y borde azul discontinuo.
 
 ### Valores y colores
 
