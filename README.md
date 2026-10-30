@@ -44,9 +44,9 @@ Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 
 1. Usa un h1 para el título y un párrafo para cada texto de la plantilla.
 2. Pon un fondo verde y un título blanco, en mayúsculas, con sombra negra.
-3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. Su ancho exterior será de 660 px (600 + 40 de padding + 20 de borde). Aplica las propiedades comunes con el selector `p`. Usa `body` y `h1` para los estilos generales de página y título, y una sola clase por párrafo. Elige tú los nombres de las clases.
+3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. 
 4. Centra la introducción y las dos citas con borde azul discontinuo con `margin: 20px auto`.
-5. Las cuatro citas con borde marrón o naranja quedan alineadas a la izquierda, con `margin: 20px 0`. Al compartir ancho, padding y grosor de borde, sus bordes izquierdos y derechos quedan alineados.
+5. Las cuatro citas con borde marrón o naranja quedan alineadas a la izquierda, con `margin: 20px 0`. 
 6. Reproduce los tres estilos de cita: borde marrón con esquinas izquierdas redondeadas, borde naranja con esquinas derechas redondeadas y borde azul discontinuo.
 
 ### Valores y colores
