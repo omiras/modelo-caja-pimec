@@ -44,21 +44,21 @@ Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 
 1. Usa un h1 para el título y un párrafo para cada texto de la plantilla.
 2. Pon un fondo verde y un título blanco, en mayúsculas, con sombra negra.
-3. Todas las cajas tendrán un ancho de contenido de 600 px. El padding y el borde se suman a ese ancho.
+3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. Su ancho exterior será de 660 px (600 + 40 de padding + 20 de borde). Puedes reunir estas propiedades en una clase común `caja`.
 4. Centra únicamente la introducción y la última cita con `margin: 20px auto`.
-5. Las cinco citas intermedias quedan alineadas a la izquierda, con `margin: 20px 0`.
+5. Las cinco citas intermedias quedan alineadas a la izquierda, con `margin: 20px 0`. Al compartir ancho, padding y grosor de borde, sus bordes izquierdos y derechos quedan alineados.
 6. Reproduce los tres estilos de cita: borde marrón con esquinas izquierdas redondeadas, borde naranja con esquinas derechas redondeadas y borde azul discontinuo.
 
 ### Valores y colores
 
 | Clase sugerida | Fondo | Texto | Borde | Padding |
 | --- | --- | --- | --- | --- |
-| Introducción | `#ffffff` | `#000000` | 10 px sólido `#000000`, radio 30 px | 20 px |
-| Cita marrón | `#b35733` | `#ffffff` | 20 px sólido `#802400`, radios izquierdos 20 px | 10 px |
-| Cita naranja | `#b37b33` | `#ffffff` | 15 px sólido `#804800`, radios derechos 15 px | 5 px |
-| Cita azul | `#004680` | `#ffffff` | 5 px discontinuo `#3379b3` | 20 px |
+| `introduccion` | `#ffffff` | `#000000` | 10 px sólido `#000000`, radio 30 px | 20 px |
+| `estilo-1` | `#b35733` | `#ffffff` | 10 px sólido `#802400`, radios izquierdos 20 px | 20 px |
+| `estilo-2` | `#b37b33` | `#ffffff` | 10 px sólido `#804800`, radios derechos 15 px | 20 px |
+| `estilo-3` | `#004680` | `#ffffff` | 10 px discontinuo `#3379b3` | 20 px |
 
-Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px, sombra negra desplazada 5 px en horizontal y vertical. Conserva el orden de los textos; aplica los estilos marrón, naranja y azul y repite esa secuencia. La última cita utiliza el estilo azul y queda centrada.
+Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px, sombra negra desplazada 5 px en horizontal y vertical. Conserva el orden de los textos; aplica las clases `estilo-1`, `estilo-2` y `estilo-3` y repite esa secuencia. La última cita utiliza `estilo-3` y queda centrada. Los colores, los radios y el tipo de borde distinguen cada estilo; el ancho, el padding y el grosor del borde son iguales en todas las cajas.
 
 ## Ejercicio 2. Citas de Chesterton
 
