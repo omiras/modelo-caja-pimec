@@ -70,13 +70,9 @@ Archivo: **2-chersteton.html**. Crea **2-chesterton.css** y enlázalo. Se conser
 
 La distribución se adapta así:
 
-- El body tiene un ancho de 900 px y `margin: 20px auto`.
+- El body tiene un ancho del 80% y `margin: 20px auto`.
 - Usa header para el título y los dos párrafos introductorios, main para las citas y un section por tema: Capitalismo, Política y Progreso. Cada tema tiene un h2 y cada cita un p.
-- Header: padding de 0 px arriba y abajo, 10 px a los lados. El título tiene margen 0 px y está centrado.
-- Main: borde blanco de 2 px y padding de 10 px.
-- Cada sección tiene 5 px de padding inferior y 40 px de separación respecto a la siguiente. Aplica `style="margin-top: 40px;"` a la segunda y tercera sección para practicar los estilos en línea.
-- Cada h2 tiene margen 0 px y padding izquierdo de 10 px.
-- Cada cita tiene `margin: 20px 40px`, padding de 10 px, borde de 10 px e interlineado de 48 px.
+- Incluye los paddings y márgenes aproximados para cada elemento
 
 ### Colores y tamaños
 
