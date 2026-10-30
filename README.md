@@ -44,16 +44,16 @@ Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 
 1. Usa un h1 para el título y un párrafo para cada texto de la plantilla.
 2. Pon un fondo verde y un título blanco, en mayúsculas, con sombra negra.
-3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. Su ancho exterior será de 660 px (600 + 40 de padding + 20 de borde). Puedes reunir estas propiedades en una clase común `caja`.
-4. Centra únicamente la introducción y la última cita con `margin: 20px auto`.
-5. Las cinco citas intermedias quedan alineadas a la izquierda, con `margin: 20px 0`. Al compartir ancho, padding y grosor de borde, sus bordes izquierdos y derechos quedan alineados.
+3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. Su ancho exterior será de 660 px (600 + 40 de padding + 20 de borde). Aplica las propiedades comunes con el selector `p`. Usa `body` y `h1` para los estilos generales de página y título, y una sola clase por párrafo: `intro`, `estilo-1`, `estilo-2` o `estilo-3`.
+4. Centra la introducción y las dos citas de clase `estilo-3` con `margin: 20px auto`.
+5. Las cuatro citas de clases `estilo-1` y `estilo-2` quedan alineadas a la izquierda, con `margin: 20px 0`. Al compartir ancho, padding y grosor de borde, sus bordes izquierdos y derechos quedan alineados.
 6. Reproduce los tres estilos de cita: borde marrón con esquinas izquierdas redondeadas, borde naranja con esquinas derechas redondeadas y borde azul discontinuo.
 
 ### Valores y colores
 
 | Clase sugerida | Fondo | Texto | Borde | Padding |
 | --- | --- | --- | --- | --- |
-| `introduccion` | `#ffffff` | `#000000` | 10 px sólido `#000000`, radio 30 px | 20 px |
+| `intro` | `#ffffff` | `#000000` | 10 px sólido `#000000`, radio 30 px | 20 px |
 | `estilo-1` | `#b35733` | `#ffffff` | 10 px sólido `#802400`, radios izquierdos 20 px | 20 px |
 | `estilo-2` | `#b37b33` | `#ffffff` | 10 px sólido `#804800`, radios derechos 15 px | 20 px |
 | `estilo-3` | `#004680` | `#ffffff` | 10 px discontinuo `#3379b3` | 20 px |
@@ -95,6 +95,6 @@ Fuente general: Arial o sans-serif, 24 px. Título principal: 64 px. Títulos de
 - Las clases del HTML coinciden con las de tu hoja CSS.
 - Distingues el margen exterior, el borde y el relleno interior.
 - Has conservado los textos de las plantillas.
-- En Dijkstra solo la primera y la última caja están centradas.
+- En Dijkstra la introducción y las dos citas de clase `estilo-3` están centradas.
 - En Chesterton el conjunto está centrado y las citas tienen espacio dentro de cada sección.
 - Comprueba el resultado con una ventana amplia: los anchos fijos pueden superar el espacio disponible en una ventana estrecha.
