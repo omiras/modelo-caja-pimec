@@ -56,7 +56,7 @@ Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 | Citas con borde naranja | `#b37b33` | `#ffffff` | 10 px sólido `#804800`, radios derechos 15 px | 20 px |
 | Citas con borde azul | `#004680` | `#ffffff` | 10 px discontinuo `#3379b3` | 20 px |
 
-Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px, sombra negra desplazada 5 px en horizontal y vertical. Conserva el orden de los textos; alterna los estilos de borde marrón, naranja y azul, y repite esa secuencia. Las dos citas con borde azul quedan centradas. Los colores, los radios y el tipo de borde distinguen cada estilo; el ancho, el padding y el grosor del borde son iguales en todas las cajas.
+Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px.
 
 ## Ejercicio 2. Citas de Chesterton
 
