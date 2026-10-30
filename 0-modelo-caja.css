@@ -5,25 +5,25 @@ body {
 }
 
 .one {
-  background: pink;
-  border: 3px solid blue;
+  background: #ffc0cb;
+  border: 3px solid #0000ff;
   /* CHANGE ME */
-  padding: 0px;
-  margin: 0px;
+  padding: 32px;
+  margin: 12px;
 }
 
 .two {
-  background: lightblue;
-  border: 3px solid purple;
+  background: #add8e6;
+  border: 3px solid #800080;
   /* CHANGE ME */
-  margin-bottom: 0px;
+  margin-bottom: 48px;
 }
 
 .three {
-  background: peachpuff;
-  border: 3px solid brown;
+  background: #ffdab9;
+  border: 3px solid #a52a2a;
   width: 200px;
   /* CHANGE ME */
-  padding: 0px;
-  margin-left: 0px;
+  padding: 32px;
+  margin-left: auto;
 }

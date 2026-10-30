@@ -1,0 +1,42 @@
+.pagina {
+  width: 900px;
+  margin: 20px auto;
+  background-color: #997366;
+  color: #000000;
+  font-family: Arial, sans-serif;
+  font-size: 24px;
+  text-align: justify;
+}
+.cabecera {
+  padding: 0 10px;
+  background-color: #998680;
+}
+.titulo {
+  margin: 0;
+  font-size: 64px;
+  text-align: center;
+}
+.contenido {
+  border: 2px solid #ffffff;
+  padding: 10px;
+}
+.tema {
+  padding-bottom: 5px;
+  background-color: #b39f99;
+}
+.separado {
+  margin-top: 40px;
+}
+.subtitulo {
+  margin: 0;
+  padding-left: 10px;
+  background-color: #ffffff;
+  font-size: 36px;
+}
+.cita {
+  border: 10px solid #402d26;
+  margin: 20px 40px;
+  padding: 10px;
+  color: #ffffff;
+  line-height: 48px;
+}

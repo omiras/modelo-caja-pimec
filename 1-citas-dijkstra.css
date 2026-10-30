@@ -1,0 +1,49 @@
+.pagina {
+  background-color: #267352;
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+}
+.titulo {
+  color: #ffffff;
+  font-size: 40px;
+  text-shadow: 5px 5px #000000;
+  text-transform: uppercase;
+}
+.introduccion {
+  width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 10px solid #000000;
+  border-radius: 30px;
+  background-color: #ffffff;
+  color: #000000;
+  text-align: justify;
+}
+.cita {
+  width: 600px;
+  margin: 20px 0;
+  color: #ffffff;
+  text-align: justify;
+}
+.marron {
+  padding: 10px;
+  border: 20px solid #802400;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #b35733;
+}
+.naranja {
+  padding: 5px;
+  border: 15px solid #804800;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  background-color: #b37b33;
+}
+.azul {
+  padding: 20px;
+  border: 5px dashed #3379b3;
+  background-color: #004680;
+}
+.final {
+  margin: 20px auto;
+}
