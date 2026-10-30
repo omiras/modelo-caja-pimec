@@ -44,27 +44,29 @@ Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 
 1. Usa un h1 para el título y un párrafo para cada texto de la plantilla.
 2. Pon un fondo verde y un título blanco, en mayúsculas, con sombra negra.
-3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. Su ancho exterior será de 660 px (600 + 40 de padding + 20 de borde). Aplica las propiedades comunes con el selector `p`. Usa `body` y `h1` para los estilos generales de página y título, y una sola clase por párrafo: `intro`, `estilo-1`, `estilo-2` o `estilo-3`.
-4. Centra la introducción y las dos citas de clase `estilo-3` con `margin: 20px auto`.
-5. Las cuatro citas de clases `estilo-1` y `estilo-2` quedan alineadas a la izquierda, con `margin: 20px 0`. Al compartir ancho, padding y grosor de borde, sus bordes izquierdos y derechos quedan alineados.
+3. Todas las cajas tendrán un ancho de contenido de 600 px, padding de 20 px y borde de 10 px. Su ancho exterior será de 660 px (600 + 40 de padding + 20 de borde). Aplica las propiedades comunes con el selector `p`. Usa `body` y `h1` para los estilos generales de página y título, y una sola clase por párrafo. Elige tú los nombres de las clases.
+4. Centra la introducción y las dos citas con borde azul discontinuo con `margin: 20px auto`.
+5. Las cuatro citas con borde marrón o naranja quedan alineadas a la izquierda, con `margin: 20px 0`. Al compartir ancho, padding y grosor de borde, sus bordes izquierdos y derechos quedan alineados.
 6. Reproduce los tres estilos de cita: borde marrón con esquinas izquierdas redondeadas, borde naranja con esquinas derechas redondeadas y borde azul discontinuo.
 
 ### Valores y colores
 
-| Clase sugerida | Fondo | Texto | Borde | Padding |
+| Elemento | Fondo | Texto | Borde | Padding |
 | --- | --- | --- | --- | --- |
-| `intro` | `#ffffff` | `#000000` | 10 px sólido `#000000`, radio 30 px | 20 px |
-| `estilo-1` | `#b35733` | `#ffffff` | 10 px sólido `#802400`, radios izquierdos 20 px | 20 px |
-| `estilo-2` | `#b37b33` | `#ffffff` | 10 px sólido `#804800`, radios derechos 15 px | 20 px |
-| `estilo-3` | `#004680` | `#ffffff` | 10 px discontinuo `#3379b3` | 20 px |
+| Introducción | `#ffffff` | `#000000` | 10 px sólido `#000000`, radio 30 px | 20 px |
+| Citas con borde marrón | `#b35733` | `#ffffff` | 10 px sólido `#802400`, radios izquierdos 20 px | 20 px |
+| Citas con borde naranja | `#b37b33` | `#ffffff` | 10 px sólido `#804800`, radios derechos 15 px | 20 px |
+| Citas con borde azul | `#004680` | `#ffffff` | 10 px discontinuo `#3379b3` | 20 px |
 
-Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px, sombra negra desplazada 5 px en horizontal y vertical. Conserva el orden de los textos; aplica las clases `estilo-1`, `estilo-2` y `estilo-3` y repite esa secuencia. La última cita utiliza `estilo-3` y queda centrada. Los colores, los radios y el tipo de borde distinguen cada estilo; el ancho, el padding y el grosor del borde son iguales en todas las cajas.
+Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px, sombra negra desplazada 5 px en horizontal y vertical. Conserva el orden de los textos; alterna los estilos de borde marrón, naranja y azul, y repite esa secuencia. Las dos citas con borde azul quedan centradas. Los colores, los radios y el tipo de borde distinguen cada estilo; el ancho, el padding y el grosor del borde son iguales en todas las cajas.
 
 ## Ejercicio 2. Citas de Chesterton
 
 Archivo: **2-chersteton.html**. Crea **2-chesterton.css** y enlázalo. Se conserva el nombre del archivo HTML existente.
 
-[Referencia visual de colores y bloques](https://github.com/omiras/modelo-caja-pimec/assets/3286458/fab3d21b-1717-4600-9856-534206e24c25)
+[Ver diseño esperado de Chesterton](2-chesterton-esperado.png)
+
+![Diseño esperado de Chesterton](2-chesterton-esperado.png)
 
 La distribución se adapta así:
 
@@ -72,7 +74,7 @@ La distribución se adapta así:
 - Usa header para el título y los dos párrafos introductorios, main para las citas y un section por tema: Capitalismo, Política y Progreso. Cada tema tiene un h2 y cada cita un p.
 - Header: padding de 0 px arriba y abajo, 10 px a los lados. El título tiene margen 0 px y está centrado.
 - Main: borde blanco de 2 px y padding de 10 px.
-- Cada sección tiene 5 px de padding inferior y 40 px de separación respecto a la siguiente. Puedes aplicar una clase adicional a la segunda y tercera sección.
+- Cada sección tiene 5 px de padding inferior y 40 px de separación respecto a la siguiente. Aplica `style="margin-top: 40px;"` a la segunda y tercera sección para practicar los estilos en línea.
 - Cada h2 tiene margen 0 px y padding izquierdo de 10 px.
 - Cada cita tiene `margin: 20px 40px`, padding de 10 px, borde de 10 px e interlineado de 48 px.
 
@@ -95,6 +97,6 @@ Fuente general: Arial o sans-serif, 24 px. Título principal: 64 px. Títulos de
 - Las clases del HTML coinciden con las de tu hoja CSS.
 - Distingues el margen exterior, el borde y el relleno interior.
 - Has conservado los textos de las plantillas.
-- En Dijkstra la introducción y las dos citas de clase `estilo-3` están centradas.
+- En Dijkstra la introducción y las dos citas con borde azul discontinuo están centradas.
 - En Chesterton el conjunto está centrado y las citas tienen espacio dentro de cada sección.
-- Comprueba el resultado con una ventana amplia: los anchos fijos pueden superar el espacio disponible en una ventana estrecha.
+- El resultado es aproximado. Tu solución debería verse bien con el navegador web maximizado, pero es normal que no se vea bien en una pantalla pequeña.
