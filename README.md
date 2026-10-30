@@ -56,7 +56,9 @@ Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 | Citas con borde naranja | `#b37b33` | `#ffffff` | 10 px sólido `#804800`, radios derechos 15 px | 20 px |
 | Citas con borde azul | `#004680` | `#ffffff` | 10 px discontinuo `#3379b3` | 20 px |
 
-Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px.
+- **Fondo de página:** `#267352`.
+- **Fuente:** Arial o sans-serif, 20 px.
+- **Tamaño del título:** 40 px.
 
 ## Ejercicio 2. Citas de Chesterton
 
@@ -84,7 +86,11 @@ La distribución se adapta así:
 | Texto de citas | `#ffffff` |
 | Texto general | `#000000` |
 
-Fuente general: Arial o sans-serif, 24 px. Título principal: 64 px. Títulos de sección: 36 px. Los colores son aproximados; la referencia sirve para comparar fondos y bordes, y estas instrucciones concretan las medidas de la versión adaptada.
+- **Fuente general:** Arial o sans-serif, 24 px.
+- **Tamaño del título principal:** 64 px.
+- **Tamaño de los títulos de sección:** 36 px.
+
+Los colores son aproximados; la referencia sirve para comparar fondos y bordes, y estas instrucciones concretan las medidas de la versión adaptada.
 
 ## Comprueba tu trabajo
 
