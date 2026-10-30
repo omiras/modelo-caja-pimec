@@ -1,66 +1,100 @@
-## El modelo de caja
+# El modelo de caja
 
-Estos ejercicios potencian el concepto clave del [modelo de caja, o box model](https://www.w3schools.com/css/css_boxmodel.asp)
+Practica el [modelo de caja](https://www.w3schools.com/css/css_boxmodel.asp): contenido, padding, borde y margen. Abre cada HTML con Live Server.
 
-## ¿Cómo hacerlo?
+## Cómo trabajar
 
-1. Crea primero la estructura HTML.
-2. Crea un fichero CSS para cada HTML
-3. Incluye el fichero CSS dentro de cada HTML
+1. Organiza primero el contenido HTML.
+2. Crea una hoja CSS por ejercicio y enlázala desde su HTML.
+3. Utiliza clases CSS para aplicar y reutilizar los estilos.
+4. Escribe los colores en hexadecimal y las medidas en píxeles (`px`). Para centrar los bloques indicados, utiliza un ancho fijo y `margin: 20px auto`.
 
-```
-<head>
-  <link rel="stylesheet" href="styles.css">
-</head>
-```
+## Ejercicio 0. Margin y padding
 
-## Ejercicio 0
+Edita únicamente las partes señaladas con CHANGE ME de **0-modelo-caja.css** para reproducir la referencia. El HTML ya está preparado.
 
-Para este primer ejercicio, simplemente edita el archivo **0-modelo-caja.css** para que los elementos div tengan el mismo aspecto que el de la imagen de referencia.
+![Diseño esperado del ejercicio 0](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/block-and-inline/01-margin-and-padding-1/desired-outcome.png)
 
-Edita únicamente las partes del CSS donde se indique en el archivo.
+### Colores de referencia
 
-En este ejercicio solo tendrás que modificar los valores de las propiedades margin y padding. No será necesario añadir ni eliminar propiedades del CSS, ni realizar ningún cambio en el archivo HTML.
+Los colores aproximados de la captura corresponden a los que ya trae la plantilla:
 
-![imagen](https://github.com/TheOdinProject/css-exercises/raw/main/foundations/block-and-inline/01-margin-and-padding-1/desired-outcome.png)
+| Elemento | Fondo | Borde |
+| --- | --- | --- |
+| DIV ONE | `#ffc0cb` | `#0000ff` |
+| DIV TWO | `#add8e6` | `#800080` |
+| DIV THREE | `#ffdab9` | `#a52a2a` |
+
+Texto: `#000000`. Fondo de página: `#ffffff`.
 
 ### Autoevaluación
 
-Utiliza esta sección para comprobar tu trabajo. En estos ejercicios, el objetivo no es conseguir una precisión del **100 % al píxel**, sino utilizar las herramientas que has aprendido para obtener un resultado lo más parecido posible al diseño de referencia.
+- Div One y Div Three tienen 32 px de relleno entre texto y borde.
+- Div One tiene 12 px de margen por cada lado.
+- Entre Div Two y Div Three hay 48 px.
+- Div Three queda a la derecha mediante su margen izquierdo automático.
 
-* **Div One** y **Div Three** tienen **32 px** de espacio entre el texto y el borde.
-* **Div One** tiene **12 px** de separación con respecto a cualquier otro elemento de la página.
-* Hay un espacio de **48 px** entre **Div Two** y **Div Three**.
-* **Div Three** está alineado a la derecha.
-* La alineación de **Div Three** se consigue utilizando **`margin`** (y **no** `float`, `flexbox` u otras técnicas similares).
+## Ejercicio 1. Citas de Dijkstra
 
+Archivo: **1-citas-dijkstra.html**. Crea **1-citas-dijkstra.css** y enlázalo.
 
-## Ejercicios 1 y 2
+[Ver diseño esperado adaptado](1-dijkstra-esperado.png)
 
-4. Sigue este [vídeo](https://oscarm.tinytake.com/msc/ODcyNDQ3Nl8yMjEyMzQ3OQ) para ver el diseño esperado y algunos comentarios
+![Diseño esperado adaptado de Dijkstra](1-dijkstra-esperado.png)
 
+1. Usa un h1 para el título y un párrafo para cada texto de la plantilla.
+2. Pon un fondo verde y un título blanco, en mayúsculas, con sombra negra.
+3. Todas las cajas tendrán un ancho de contenido de 600 px. El padding y el borde se suman a ese ancho.
+4. Centra únicamente la introducción y la última cita con `margin: 20px auto`.
+5. Las cinco citas intermedias quedan alineadas a la izquierda, con `margin: 20px 0`.
+6. Reproduce los tres estilos de cita: borde marrón con esquinas izquierdas redondeadas, borde naranja con esquinas derechas redondeadas y borde azul discontinuo.
 
+### Valores y colores
 
-## Colores CSS
+| Clase sugerida | Fondo | Texto | Borde | Padding |
+| --- | --- | --- | --- | --- |
+| Introducción | `#ffffff` | `#000000` | 10 px sólido `#000000`, radio 30 px | 20 px |
+| Cita marrón | `#b35733` | `#ffffff` | 20 px sólido `#802400`, radios izquierdos 20 px | 10 px |
+| Cita naranja | `#b37b33` | `#ffffff` | 15 px sólido `#804800`, radios derechos 15 px | 5 px |
+| Cita azul | `#004680` | `#ffffff` | 5 px discontinuo `#3379b3` | 20 px |
 
-### Dijkstra
+Fondo de página: `#267352`. Fuente: Arial o sans-serif, 20 px. Título: 40 px, sombra negra desplazada 5 px en horizontal y vertical. Conserva el orden de los textos; aplica los estilos marrón, naranja y azul y repite esa secuencia. La última cita utiliza el estilo azul y queda centrada.
 
-**Importante**: Es suficiente con que cada bloque quede centrado, a la izquierda o a la derecha. No se va a ver exactamente igual que en la solución, debido a vuestro navegador Web, resolución o forma de abordar el problema. Estará bien igualmente mientras en resultado sea aproximado.
+## Ejercicio 2. Citas de Chesterton
 
-- fondo: #267352
-- marrón fuerte: #802400
-- naranja: #b37b33
-- azul: #004680
+Archivo: **2-chersteton.html**. Crea **2-chesterton.css** y enlázalo. Se conserva el nombre del archivo HTML existente.
 
-![image](https://github.com/omiras/modelo-caja-pimec/assets/3286458/3b4feb90-e321-45f8-b791-03a1ff177fb5)
+[Referencia visual de colores y bloques](https://github.com/omiras/modelo-caja-pimec/assets/3286458/fab3d21b-1717-4600-9856-534206e24c25)
 
+La distribución se adapta así:
 
+- El body tiene un ancho de 900 px y `margin: 20px auto`.
+- Usa header para el título y los dos párrafos introductorios, main para las citas y un section por tema: Capitalismo, Política y Progreso. Cada tema tiene un h2 y cada cita un p.
+- Header: padding de 0 px arriba y abajo, 10 px a los lados. El título tiene margen 0 px y está centrado.
+- Main: borde blanco de 2 px y padding de 10 px.
+- Cada sección tiene 5 px de padding inferior y 40 px de separación respecto a la siguiente. Puedes aplicar una clase adicional a la segunda y tercera sección.
+- Cada h2 tiene margen 0 px y padding izquierdo de 10 px.
+- Cada cita tiene `margin: 20px 40px`, padding de 10 px, borde de 10 px e interlineado de 48 px.
 
-### Chesterton
+### Colores y tamaños
 
-- fondo: #997366
-- fondo interior más claro: #998680
-- color borde de las cajitas: rgb(64, 45, 38)
+| Elemento | Color |
+| --- | --- |
+| Fondo de página | `#997366` |
+| Fondo de cabecera | `#998680` |
+| Fondo de secciones | `#b39f99` |
+| Fondo de títulos de sección y borde de main | `#ffffff` |
+| Borde de citas | `#402d26` |
+| Texto de citas | `#ffffff` |
+| Texto general | `#000000` |
 
-![image](https://github.com/omiras/modelo-caja-pimec/assets/3286458/fab3d21b-1717-4600-9856-534206e24c25)
+Fuente general: Arial o sans-serif, 24 px. Título principal: 64 px. Títulos de sección: 36 px. Los colores son aproximados; la referencia sirve para comparar fondos y bordes, y estas instrucciones concretan las medidas de la versión adaptada.
 
+## Comprueba tu trabajo
+
+- Las clases del HTML coinciden con las de tu hoja CSS.
+- Distingues el margen exterior, el borde y el relleno interior.
+- Has conservado los textos de las plantillas.
+- En Dijkstra solo la primera y la última caja están centradas.
+- En Chesterton el conjunto está centrado y las citas tienen espacio dentro de cada sección.
+- Comprueba el resultado con una ventana amplia: los anchos fijos pueden superar el espacio disponible en una ventana estrecha.
